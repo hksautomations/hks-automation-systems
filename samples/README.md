@@ -1,25 +1,18 @@
-# Sample Outputs
+# AI Automation Samples
 
-This folder contains **sanitized example outputs**
-from AI automation systems.
+This folder contains **sanitized, client-safe examples** that demonstrate how
+the documented architectures and patterns are applied in real workflows.
 
-These samples are intended to demonstrate:
-- Output structure
-- Tone and clarity
-- Decision reasoning
+These samples are:
+- Tool-agnostic
+- Non-runnable
+- Free of sensitive data
+- Designed for explanation, not execution
 
----
+Each sample shows:
+- Input
+- AI reasoning (simplified)
+- Control logic
+- Final output
 
-## What You’ll Find Here
-
-- Example AI-generated outreach drafts
-- Sample scoring and classification outputs
-- Structured AI responses (sanitized)
-
----
-
-## Important Notes
-
-- All data is anonymized or synthetic
-- No real client information is included
-- Examples are illustrative, not exhaustive
+The goal is to make system behavior **clear and trustworthy**.
