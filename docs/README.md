@@ -1,17 +1,15 @@
-# Supporting Documentation
+# Documentation
 
-This folder contains supporting documentation
-to help understand the systems and design choices
-used across this repository.
+This folder contains client-facing documentation explaining how AI automation
+systems are designed, delivered, and maintained.
 
----
+The focus is on:
+- Reliability
+- Safety
+- Transparency
+- Long-term maintainability
 
-## Topics Covered
-
-- Terminology and concepts
-- System design rationale
-- AI safety considerations
-- General notes and explanations
-
-This content complements the architecture and pattern
-documents without duplicating them.
+These documents are written for:
+- Clients
+- Reviewers
+- Technical collaborators
