@@ -1,49 +1,75 @@
 # HKS Automation Systems
 
-This repository documents **production-grade AI automation systems**
-built using n8n and Large Language Models (LLMs).
+Production-grade AI automation systems designed with **control, safety, and scalability** in mind.
 
-The focus is on:
-- Replacing repetitive manual workflows
-- Designing reliable AI-driven systems
-- Combining AI reasoning with deterministic control logic
-
-This repository contains **architecture and system documentation**,
-not raw workflow exports.
+This repository documents how I design and build AI-powered automation using workflow orchestration, large language models (LLMs), and deterministic logic.
 
 ---
 
-## What I Build
+## What This Repository Contains
 
-### AI Automation Systems
-- Lead generation and outreach automation
-- Workflow orchestration using AI + rules
-- Operations and CRM intelligence
+This is **not a collection of scripts or experiments**.
 
-### AI Assistants (RAG-Based)
-- Customer support assistants
-- Internal knowledge systems
-- Document intelligence workflows
+It is a structured documentation of:
+- AI system architectures
+- Reusable automation design patterns
+- Client-safe system samples
+- Delivery, safety, and handover practices
+
+The focus is on **reliability over hype**.
 
 ---
 
-## Design Philosophy
+## Core Principles
 
-- AI where reasoning is required
-- Rules where control is critical
-- Human-in-the-loop for risk-sensitive actions
-- Modular parent–child orchestration
-- Safe defaults and clear failure modes
+- AI is probabilistic — control logic must be deterministic
+- Automation should be explainable and auditable
+- Human override is always available
+- Systems must fail safely
+- Scaling should reduce risk, not amplify it
 
 ---
 
 ## Repository Structure
 
-- `architectures/` — system-level designs
-- `patterns/` — reusable automation patterns
-- `samples/` — sanitized example outputs
-- `docs/` — supporting documentation
+---
+
+## Example Systems Documented
+
+- AI Lead Generation & Outreach Systems
+- RAG-Based Customer Support Assistants
+- AI Research & Report Generation Systems
+- Structured AI Content Generation Pipelines
+
+Each system is designed to be:
+- Modular
+- Extendable
+- Safe to operate in production environments
 
 ---
 
-> Note: Credentials, client data, and full workflow exports are intentionally excluded.
+## Tooling (Implementation-Oriented)
+
+- Workflow orchestration: n8n
+- Reasoning: Large Language Models (OpenAI / Groq / others)
+- Control logic: Deterministic rules and gates
+- Storage: Databases, CRMs, document stores
+
+Systems are **tool-agnostic by design**.
+
+---
+
+## Intended Audience
+
+This repository is useful for:
+- Clients evaluating AI automation solutions
+- Technical reviewers and collaborators
+- Teams looking to adopt safe AI automation patterns
+
+---
+
+## About
+
+Built and maintained by **Harvish Shah**  
+AI Automation Engineer — HKS Automations
+
